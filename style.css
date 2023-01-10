@@ -14,7 +14,11 @@ body {
 }
 
 /* Add styles here! */
-
+header,
+main {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 main {
   background-color: hsl(0, 0%, 50.2%);
   height: 100%;
@@ -23,18 +27,21 @@ p {
   padding-bottom: 10px;
 }
 .max-width-wrapper {
-  max-width: 800px;
+  max-width: 650px;
   margin: 0 auto;
 }
 header .max-width-wrapper {
   padding: 100px 20px 50px 20px;
+}
+header h1 {
+  margin-bottom: 20px;
 }
 section.max-width-wrapper {
   padding-top: 50px;
   border-bottom: 10px solid hsl(0, 0%, 70%);
 }
 .intro-chunk {
-  max-width: 60%;
+  max-width: 330px;
 }
 .card {
   padding: 20px;
@@ -46,6 +53,7 @@ section.max-width-wrapper {
   padding: 10px 20px;
   background-color: hsl(48,100%,50%);
   margin-left: -30px;
+  margin-bottom: 20px;
 }
 .intro-chunk
 strong {

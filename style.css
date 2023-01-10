@@ -5,8 +5,49 @@
 
 html,
 body {
-  margin: 0;
   padding: 0;
+  height: 100%;
+  line-height: 1.5;
+}
+* {
+  margin: 0;
 }
 
 /* Add styles here! */
+
+main {
+  background-color: hsl(0, 0%, 50.2%);
+  height: 100%;
+}
+p {
+  padding-bottom: 10px;
+}
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+header .max-width-wrapper {
+  padding: 100px 20px 50px 20px;
+}
+section.max-width-wrapper {
+  padding-top: 50px;
+  border-bottom: 10px solid hsl(0, 0%, 70%);
+}
+.intro-chunk {
+  max-width: 60%;
+}
+.card {
+  padding: 20px;
+  background-color: white;
+}
+.indented-heading {
+  width: fit-content;
+  border-bottom: 10px solid hsl(48,100%,30%);
+  padding: 10px 20px;
+  background-color: hsl(48,100%,50%);
+  margin-left: -30px;
+}
+.intro-chunk
+strong {
+  color: green;;
+}
